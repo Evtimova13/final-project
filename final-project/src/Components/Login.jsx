@@ -28,8 +28,6 @@ const Login = () => {
         `http://localhost:3001/users?email=${email}`,
       );
       const foundUser = await response.json();
-      console.log(foundUser[0].password);
-      console.log(password);
       if (foundUser.length <= 0) {
         alert(`User with that email not found!`);
         return;
