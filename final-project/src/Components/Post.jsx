@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 
 const Post = ({ post }) => {
   const [loading, setLoading] = useState(false);
-  const [comments, setComments] = useState([]);
   const [postUser, setPostUser] = useState(null);
   const userName = postUser?.name || 'Unknown user';
   const getPostUser = async () => {
