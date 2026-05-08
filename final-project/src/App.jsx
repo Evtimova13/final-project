@@ -13,8 +13,7 @@ function App() {
               Share quick thoughts and discover what others are posting.
             </h1>
             <p className="text-lg text-slate-600">
-              Megis is a lightweight space for short posts. You can browse, but
-              to create posts or comment you will need to register or log in.
+              The server is a lightweight space for short posts. You can browse, but you need to be log in.
             </p>
             <div className="flex flex-wrap gap-3">
               <button
